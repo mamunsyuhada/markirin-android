@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_near_me"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Near Me" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="Parking Maps" />
+        <item
+            android:id="@+id/nav_booking_history"
+            android:icon="@drawable/ic_bookmark_black_24dp"
+            android:title="Bookings" />
+        <item
+            android:id="@+id/nav_payment_history"
+            android:icon="@drawable/ic_payment_black_24dp"
+            android:title="Payments" />
+    </group>
+
+</menu>
